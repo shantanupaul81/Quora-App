@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
-    "server": "nodemon server/server",
-    "start": "nodemon --watch server --exec node server/server.js"
+    "server": "node server/server",
+    "start": "node --watch server --exec node server/server.js"
   },
   "keywords": [],
   "author": "",
